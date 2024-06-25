@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-2b44ac2e.js">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-21fdfc57.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/1-timer-23281ed5.css">
+</head>
+<body>
+    <button type="button" class="btn" href="./index.html">Go to home</button>
+
+    <input class="timer-input" type="text" id="datetime-picker" />
+    <button type="button" class="start-timer-btn" data-start>Start</button>
+    
+    <div class="wrap timer">
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-days>00</span>
+            <span class="wrap-field-label label">Days</span>
+        </div>
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-hours>00</span>
+            <span class="wrap-field-label label">Hours</span>
+        </div>
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-minutes>00</span>
+            <span class="wrap-field-label label">Minutes</span>
+        </div>
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-seconds>00</span>
+            <span class="wrap-field-label label">Seconds</span>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./css/1-timer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+</head>
+<body>
+    <button type="button" class="btn" href="./index.html">Go to home</button>
+
+    <input class="timer-input" type="text" id="datetime-picker" />
+    <button type="button" class="start-timer-btn" data-start>Start</button>
+    
+    <div class="wrap timer">
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-days>00</span>
+            <span class="wrap-field-label label">Days</span>
+        </div>
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-hours>00</span>
+            <span class="wrap-field-label label">Hours</span>
+        </div>
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-minutes>00</span>
+            <span class="wrap-field-label label">Minutes</span>
+        </div>
+        <div class="wrap-field field">
+            <span class="wrap-field-value value" data-seconds>00</span>
+            <span class="wrap-field-label label">Seconds</span>
+        </div>
+    </div>
+    <script type="module" src="./js/1-timer.js"></script>
+</body>
+</html>
