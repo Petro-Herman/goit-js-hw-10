@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/js/1-timer.js"],"sourcesContent":["document.addEventListener('DOMContentLoaded', function () {\n  flatpickr('#datetime-picker', {});\n});\n\n// Описаний в документації\nimport flatpickr from \"flatpickr\";\n// Додатковий імпорт стилів\nimport \"flatpickr/dist/flatpickr.min.css\";\n"],"names":["flatpickr"],"mappings":"oGAAA,SAAS,iBAAiB,mBAAoB,UAAY,CACxDA,EAAU,mBAAoB,CAAA,CAAE,CAClC,CAAC"}
+{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
