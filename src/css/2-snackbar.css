@@ -1,0 +1,105 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: block;
+    box-sizing: content-box;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 16px;
+    width: 90px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #6c8cff;
+}
+
+.input-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    /* margin-top: 32px; */
+}
+
+.input-state {
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    width: 356px;
+    height: 66px;
+    /* padding: 24px 48px 8px 48px; */
+    padding: 0;
+    position: relative;
+}
+
+.input-radio {
+    position: absolute;
+    left: 48px;
+    bottom: 8px;
+    /* margin: 24px 48px 8px 48px; */
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.input-state-radio {
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+}
+
+.input-radio-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    margin: 0;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-submit {
+    margin-top: 24px;
+    border-radius: 8px;
+    padding: 0;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background: #6c8cff;
+}

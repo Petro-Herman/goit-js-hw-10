@@ -4,6 +4,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .btn {
@@ -24,6 +25,7 @@ a {
     color: #fff;
 }
 
+
 .btn:hover {
     background: #6c8cff;
 }
@@ -41,6 +43,12 @@ a {
     color: #2e2f42;
 }
 
+.start-timer-btn:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
 .start-timer-btn {
     margin-left: 8px;
     cursor: pointer;
@@ -49,13 +57,23 @@ a {
     padding: 8px 16px;
     width: 75px;
     height: 40px;
-    background: #cfcfcf;
+    background: #4e75ff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #989898;
+    color: #fff;
 }
+
+/* .start-timer-btn:active {
+    background: #4e75ff;
+    color: #fff;
+} */
+
+/* .start-timer-btn:hover {
+    background: #6c8cff;
+    color: #fff;
+} */
 
 .wrap {
     margin-top: 32px;
