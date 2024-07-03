@@ -1,3 +1,6 @@
+// const flatpickr = require('flatpickr');
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
 
 document.addEventListener('DOMContentLoaded', function () {
   const datetimePicker = document.getElementById('datetime-picker');
